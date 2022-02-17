@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Outline",
+  "icons": { "16": "/assets/images/apple-icon-180x180.png",
+    "48": "/assets/images/apple-icon-180x180.png",
+   "128": "/assets/images/apple-icon-180x180.png" },
+  "version": "0.0.1",
+  "description": "extensão para facilitar uso de outline",
+  "author": "https://github.com/WillGolden80742/",
+  "browser_action": {
+  	"default_title": "Comentys",
+    "default_popup": "index.html"
+  },
+  "content_scripts":[
+    {
+      "matches": ["<all_urls>"],
+      "js": ["/assets/js/content.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+     "activeTab",
+     "<all_urls>"
+  ]
+}
