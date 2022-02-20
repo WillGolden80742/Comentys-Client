@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Outline",
+  "name": "Comentys",
   "icons": { "16": "/assets/images/apple-icon-180x180.png",
     "48": "/assets/images/apple-icon-180x180.png",
    "128": "/assets/images/apple-icon-180x180.png" },

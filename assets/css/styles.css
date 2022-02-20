@@ -1,1 +1,89 @@
 
+.messagesDiv {
+    width:300px;
+    height:300px;
+}
+
+.messagesFrame {
+    border:none;
+    border-radius:10px;
+    border: 2px solid #008cff;
+}
+
+
+::-webkit-scrollbar {
+    width:10px;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#008cff;
+}   
+
+::-webkit-scrollbar-thumb {
+    background:white;
+    border-radius:10px;
+    border:solid 1px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-track {
+    border-radius:10px;
+    box-shadow:inset 0px 0px 5px rgba(0,0,0,0.25);
+}
+
+::-webkit-input-placeholder{
+    color: #285d33;
+    font-weight: bold;
+}
+
+.comentTextBox {
+    margin-top:10px;
+    width:85%;
+    height:100px;
+    resize: none;
+    background:none;
+    border-radius:10px;
+    border: 2px solid #008cff;
+}
+
+.send {
+    position:absolute;
+    margin-top:10px;
+    margin-left:7px;
+    font-size:14px;
+    border: 2px solid #00000000;
+    background:none;
+    border-radius:100%;
+    padding:5px;
+    background-image: url('/assets/images/send_vectorized.png');
+    background-size:60%;
+    background-position-x:10px;
+    background-position-y:7px;
+    padding:15px;
+    width:40px;
+    height:40px;
+    background-repeat: no-repeat;
+}
+
+.send:hover {
+    background-color:#008cff;
+}
+
+#countText {
+    position: absolute; 
+    font-size:10px;
+    margin-top:60px;
+    margin-left:5px;
+}
+
+.msgBox {
+    width:250px;
+    padding:10px;
+    border-radius:10px;
+    background-color:#008cff;
+}
+
+h3 a {
+    text-decoration:none;
+    color: black;
+}
